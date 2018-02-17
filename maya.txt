@@ -1,0 +1,67 @@
+Using Alembic 1.7.4 (built Dec 11 2017 10:59:07)
+  file written by: Maya 2017 AbcExport v1.0
+  using Alembic : Alembic 1.5.8 (built Dec 24 2015 17:28:19)
+  written on : Tue Dec 12 12:18:30 2017
+  user description : Exported from: C:/Users/nick/Documents/maya/projects/default/untitled
+  core type : Ogawa
+/:
+AbcGeom_Xform_v3                   crv_GP_Layer_1_mesh_007 {
+                                    schema=AbcGeom_Xform_v3
+                                    schemaObjTitle=AbcGeom_Xform_v3:.xform
+                                   }
+ScalarProperty      float64_t[6]   .childBnds[10] {interpretation=box}
+ScalarProperty      string         statistics[1]
+ScalarProperty      uint32_t       1.samples[1]
+/crv_GP_Layer_1_mesh_007:
+AbcGeom_PolyMesh_v1                crv_GP_Layer_1_mesh_007Shape {
+                                    schema=AbcGeom_PolyMesh_v1
+                                    schemaBaseType=AbcGeom_GeomBase_v1
+                                    schemaObjTitle=AbcGeom_PolyMesh_v1:.geom
+                                   }
+CompoundProperty                   .xform {schema=AbcGeom_Xform_v3}
+ScalarProperty      int8_t         visible[10]
+/crv_GP_Layer_1_mesh_007/.xform:
+ScalarProperty      bool_t         .inherits[1]
+/crv_GP_Layer_1_mesh_007/crv_GP_Layer_1_mesh_007Shape:
+CompoundProperty                   .geom {
+                                    schema=AbcGeom_PolyMesh_v1
+                                    schemaBaseType=AbcGeom_GeomBase_v1
+                                   }
+/crv_GP_Layer_1_mesh_007/crv_GP_Layer_1_mesh_007Shape/.geom:
+ScalarProperty      float64_t[6]   .selfBnds[1] {interpretation=box}
+ArrayProperty       float32_t[3]   P[1] {
+                                    geoScope=vtx
+                                    interpretation=point
+                                   }
+ArrayProperty       int32_t        .faceIndices[1]
+ArrayProperty       int32_t        .faceCounts[1]
+ArrayProperty       float32_t[3]   N[1] {
+                                    arrayExtent=1
+                                    geoScope=fvr
+                                    interpretation=normal
+                                    isGeomParam=true
+                                    podExtent=3
+                                    podName=float32_t
+                                   }
+CompoundProperty                   .arbGeomParams
+/crv_GP_Layer_1_mesh_007/crv_GP_Layer_1_mesh_007Shape/.arbGeomParams:
+CompoundProperty                   Cd {
+                                    arrayExtent=1
+                                    geoScope=fvr
+                                    interpretation=rgba
+                                    isGeomParam=true
+                                    mayaColorSet=1
+                                    podExtent=4
+                                    podName=float32_t
+                                   }
+/crv_GP_Layer_1_mesh_007/crv_GP_Layer_1_mesh_007Shape/Cd:
+ArrayProperty       float32_t[4]   .vals[1] {
+                                    arrayExtent=1
+                                    geoScope=fvr
+                                    interpretation=rgba
+                                    isGeomParam=true
+                                    mayaColorSet=1
+                                    podExtent=4
+                                    podName=float32_t
+                                   }
+ArrayProperty       uint32_t       .indices[1]
